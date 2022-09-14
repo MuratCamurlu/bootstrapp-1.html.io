@@ -54,3 +54,31 @@ section#courses .nav-link.active {
 section#courses .nav-link {
   color: white;
 }
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin: 0.2rem;
+  transition: transform 2s;
+}
+footer i:hover {
+  color: var(--red);
+  transform: rotateY(360deg);
+}
+.up-btn {
+  border: 1px solid red;
+  color: white;
+  background-color: #dc3545;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.up-btn:hover {
+  color: black;
+}

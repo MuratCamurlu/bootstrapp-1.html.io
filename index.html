@@ -19,7 +19,7 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body id="body">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -474,7 +474,7 @@
             <a href="tel:+90234556565">+90234556565</a>
           </div>
           <div class="col-md-4">
-            <i class="fab fa-whatsapp fa-3x text-danger"></i>
+            <i class="fab fa-whatsapp fa-2x text-danger"></i>
             <h4>Whatsapp</h4>
             <a href="https://wa.me/+90234556565">+90234556565</a>
           </div>
@@ -484,29 +484,82 @@
             <a href="mailto:info@clarusway.com">info@clarusway</a>
           </div>
         </div>
+        <form class="row g-3 mt-4">
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="col-md-6">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="enter your email"
+            />
+          </div>
+          <div class="col-12">
+            <input
+              type="text"
+              class="form-control"
+              id="subject"
+              placeholder="Enter your subject"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <textarea
+              type="text"
+              class="form-control"
+              id="comment"
+              placeholder="Enter your comments"
+            ></textarea>
+          </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </div>
+        </form>
+
+
       </article>
 
-      <article id="location"></article>
+      <article id="location" class="mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.7550269386747!2d38.078519215646146!3d40.9649451300386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406319d5447d628f%3A0x20164a8c65dabf8b!2sOrdu%20Giresun%20Havaliman%C4%B1%20(OGU)!5e0!3m2!1str!2str!4v1663183690942!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </article>
     </section>
       
-    
-    
-    
-</main>
+    </main>
+
+
+    <footer class="bg-dark text-center text-white p-4">
+      <article>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </article>
+      <article class="p-3 ">
+        &copy
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+       Copyright by Clarusway
+      </article>
+    </footer>
+
+<a href="#body" class="up-btn">
+  <i class="fa-solid fa-arrow-up"></i>
+</a>
 
 
 
 
 
-
-
-
-
-
-
-
-
-    <script
+<script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
