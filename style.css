@@ -48,3 +48,9 @@ section#instructors .socials i {
 section#instructors .socials i:hover {
   opacity: 0.5;
 }
+section#courses .nav-link.active {
+  background-color: var(--red);
+}
+section#courses .nav-link {
+  color: white;
+}
